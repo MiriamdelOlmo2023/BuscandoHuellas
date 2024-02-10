@@ -1,0 +1,67 @@
+.contact-form-container {
+  background-color: #103142;
+  padding: 5px 0 10px 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-heading {
+  text-align: center;
+  color: hsl(31, 93%, 48%);
+  font-size: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.form-button {
+  background-color: hsl(31, 93%, 48%);
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: hsla(31, 93%, 48%, 0.758);
+}
+
+.form-input {
+  width: 400px;
+  background-color: #ededed25;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 16px;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #ec7e09 !important;
+}
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+  color: #ffffff !important;
+}
+
+.form-button {
+  background-color: #ec7e09;
+}
+
+.form-button:hover {
+  background-color: #ff9d4e;
+}
+
+.MuiFilledInput-underline:after {
+  border-bottom-color: #ec7e09 !important;
+}
+
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.522) !important;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.522) !important;
+}

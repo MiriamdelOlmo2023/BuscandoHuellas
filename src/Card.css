@@ -1,0 +1,58 @@
+.card {
+    perspective: 1000px;
+    width: 380px;
+    height: 470px;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-content {
+    text-align: center;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    text-align: center;
+    padding: 20px;
+    background-color: #f5eedf;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-content {
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    margin-top: 5px;
+}

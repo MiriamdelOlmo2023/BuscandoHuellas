@@ -1,0 +1,39 @@
+#bgFooter {
+    background-color: #103142;
+    padding: 30px;
+}
+
+#hrFooter {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+#titFooter {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 30px;
+  }
+  
+#copy {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: -20px;
+    color: grey;
+}
+
+#huellasF {
+    position: absolute;
+    height: 150px;
+    margin-top: -60px;
+    margin-left: -20px;
+    opacity: 40%;
+}
+
+#huellasFR {
+    position: absolute;
+    height: 150px;
+    margin-top: -60px;
+    margin-left: 77%;
+    opacity: 40%;
+}

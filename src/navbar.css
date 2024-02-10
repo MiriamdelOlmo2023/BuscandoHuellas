@@ -1,0 +1,33 @@
+#logo {
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+}
+
+#divTitle {
+    display: table-column;
+    margin: -15px 0 0 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#titulo {
+    color: #EC7F08;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+#Toolbar {
+    background-color: #103142;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+  
+#huellas {
+    position: fixed;
+    z-index: 1001;
+    height: 80px;
+    margin-left: 91.5%;
+    margin-top: 30px;
+}

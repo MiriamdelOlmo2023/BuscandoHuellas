@@ -1,0 +1,161 @@
+#bodyDiv {
+  background-color: #F8F4EB;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5 {
+  scroll-margin-top: 160px;
+}
+
+#menu3 {
+  scroll-margin-top: 180px;
+}
+
+#menu1 {
+  margin-top: 100px;
+  scroll-margin-top: 179px;
+  background-color: #103142;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  margin: auto;
+  color: white;
+  box-shadow: #00000033 1.95px 1.95px 2.6px;
+}
+
+#menu2 {
+  scroll-margin-top: 179px;
+}
+
+#menu5 {
+  margin-bottom: 100px;
+  scroll-margin-top: 120px;
+}
+
+#carrousel {
+  margin-top: 180px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+#intro {
+  position: absolute;
+  z-index: 200;
+  right: 0px;
+}
+
+.drop-main {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px #0000004d;
+}
+
+.d {
+  opacity: 0;
+  animation: drop 0.7s linear forwards;
+}
+.r {
+  opacity: 0;
+  animation: drop 0.7s linear forwards 0.2s;
+}
+.o {
+  opacity: 0;
+  animation: drop 0.7s linear forwards 0.4s;
+}
+.p {
+  opacity: 0;
+  animation: drop 0.7s linear forwards 0.6s;
+}
+.s {
+  opacity: 0;
+  animation: drop 0.7s linear forwards 0.8s;
+}
+
+@keyframes drop {
+  0% {
+      transform: translateY(-200px);
+      opacity: 0;
+      color: #103142;
+  }
+  50% {
+      transform: translateY(0px);
+      opacity: 1;
+      color: #103142;
+  }
+  65% {
+      transform: translateY(-17px);
+      opacity: 1;
+      color: #103142;
+  }
+  80% {
+      transform: translateY(-22px);
+      opacity: 1;
+      color: #103142;
+  }
+  100% {
+      transform: translateY(0px);
+      opacity: 1;
+      color: #ec7e09;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#divIntro {
+  animation: fadeIn 2s ease-in-out;
+  z-index: 2800;
+}
+
+
+#textIntro {
+  width: 900px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+#btnIntro {
+  background-color: #103142;
+  color: white;
+  padding: 8px 25px;
+  font-size: 18px;
+  border: 2px solid #103142;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border-radius: 15px;
+  margin-top: 18px;
+  z-index: 1000;
+}
+
+#btnIntro:hover {
+  background-color: #1A4561;
+  border: 2px solid #1A4561;
+  transform: scale(1.03);
+}
+
+#tit {
+  margin-bottom: 20px;
+}
